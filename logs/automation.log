@@ -1,0 +1,5 @@
+16:41:17.785 [TestNG-tests-1] INFO  testcases.AddToCartTest - ******** AddToCartTest Completed ********
+16:41:17.793 [TestNG-tests-1] INFO  testbase.BaseClass - Starting screenshot capture for test: verifyAddToCart
+16:41:17.802 [TestNG-tests-1] INFO  testbase.BaseClass - Starting screenshot capture for test: verifyAddToCart
+16:41:17.806 [TestNG-tests-1] INFO  testcases.AddToCartTest - Closing the application and quitting WebDriver 
+16:41:17.806 [TestNG-tests-1] INFO  testcases.AddToCartTest - ******** Test Execution Finished **********

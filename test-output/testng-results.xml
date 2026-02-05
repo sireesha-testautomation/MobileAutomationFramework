@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T16:34:23 PST" name="ParallelMobileSuite" finished-at="2026-02-04T16:34:23 PST" duration-ms="249">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T16:34:23 PST" name="Samsung_S22" finished-at="2026-02-04T16:34:23 PST" duration-ms="249">
+    </test> <!-- Samsung_S22 -->
+  </suite> <!-- ParallelMobileSuite -->
+</testng-results>
