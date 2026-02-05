@@ -48,82 +48,89 @@ mobile-automation-framework
 ├── testng.xml                         → TestNG suite configuration
 ├── run.bat                            → Batch file to execute tests
 └── README.md
+```
+🧩 Framework Type
 
-## 🧩 Framework Type
+This is a Hybrid Automation Framework, combining:
 
-This is a **Hybrid Automation Framework**, combining:
+Page Object Model (POM)
 
-- Page Object Model (POM)  
-- Data-driven testing  
-- Keyword-driven utilities  
-- TestNG framework  
-- Maven build management  
+Data-driven testing
 
----
+Keyword-driven utilities
 
-## 🛠️ Tech Stack
+TestNG framework
 
-- **Programming Language:** Java  
-- **Test Framework:** TestNG  
-- **Build Tool:** Maven  
-- **Automation Tools:** Selenium / Appium  
-- **Logging:** Log4j (or Java Logger if configured)  
-- **Reporting:** TestNG Reports / Custom Reports  
-- **IDE:** Eclipse / IntelliJ  
-- **OS:** Windows  
+Maven build management
 
----
+🛠️ Tech Stack
 
-## ✨ Features
+Programming Language: Java
 
-- ✅ Page Object Model (POM) design pattern  
-- ✅ Modular and reusable test components  
-- ✅ Parallel execution using TestNG  
-- ✅ Data-driven testing support  
-- ✅ Centralized configuration via XML & Maven  
-- ✅ Logging and reporting  
-- ✅ Batch execution using Run.bat  
-- ✅ Maven lifecycle integration (test, clean, install)  
+Test Framework: TestNG
 
----
+Build Tool: Maven
 
-## ⚙️ Prerequisites
+Automation Tools: Selenium / Appium
+
+Logging: Log4j (or Java Logger if configured)
+
+Reporting: TestNG Reports / Custom Reports
+
+IDE: Eclipse / IntelliJ
+
+OS: Windows
+
+✨ Features
+
+✅ Page Object Model (POM) design pattern
+
+✅ Modular and reusable test components
+
+✅ Parallel execution using TestNG
+
+✅ Data-driven testing support
+
+✅ Centralized configuration via XML & Maven
+
+✅ Logging and reporting
+
+✅ Batch execution using Run.bat
+
+✅ Maven lifecycle integration (test, clean, install)
+
+⚙️ Prerequisites
 
 Make sure the following are installed:
 
-- Java JDK 17 or higher  
-- Maven 3.x  
-- Eclipse / IntelliJ IDE  
-- Android Studio & Emulator (for mobile testing)  
-- Node.js & Appium Server (for mobile automation)  
+Java JDK 17 or higher
 
----
+Maven 3.x
 
-## ▶️ How to Run Tests
+Eclipse / IntelliJ IDE
 
-### 🔹 1. Using TestNG XML
-Right-click `testng.xml` → Run As → TestNG Suite
+Android Studio & Emulator (for mobile testing)
 
----
+Node.js & Appium Server (for mobile automation)
 
-### 🔹 2. Using Maven Command Line
+▶️ How to Run Tests
 
-```bash
+1️⃣ Using TestNG XML
+Right-click testng.xml → Run As → TestNG Suite
+
+2️⃣ Using Maven Command Line
 mvn clean test
 
-### 🔹 3. Using Batch File
-
-```bash
+3️⃣ Using Batch File
 Run Run.bat
 
-
-Test Reports
+📄 Test Reports
 
 After execution, reports are generated in:
 
 /reports/
 
-Logging
+📜 Logging
 
 Execution logs are stored in:
 
